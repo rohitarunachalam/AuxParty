@@ -22,6 +22,7 @@ body {
 
  #button{
     border: 1px solid #CCC5B9;
+    font-family: avenir;
     border-radius: 10px;
     color: #CCC5B9;
     background-color: transparent;
@@ -30,8 +31,13 @@ body {
     text-decoration: none;
     margin: 25px 0;
     transform: background-color 200ms ease-in-out;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
 
-#button:hover, #buttom:focus{
-     background-color:#EB5E28;
-}
+#button:hover {
+    background-color:#EB5E28;
+    box-shadow: 0px 10px 10px #BA5027;
+    color: #fff;
+    transform: translateY(-7px);
+  }
