@@ -20,7 +20,7 @@ body {
       
   }
 
- #button{
+  #startButton{
     border: 1px solid #CCC5B9;
     font-family: avenir;
     border-radius: 10px;
@@ -35,7 +35,7 @@ body {
     cursor: pointer;
 }
 
-#button:hover {
+#startButton:hover {
     background-color:#EB5E28;
     box-shadow: 0px 10px 10px #BA5027;
     color: #fff;
