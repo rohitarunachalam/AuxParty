@@ -1,0 +1,37 @@
+text{
+    font-family: avenir;
+}
+
+body {
+    background-color: #252422;
+    font-family: avenir;
+}
+
+  #title{
+      color: #EB5E28;
+  }
+
+  #yeet{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height:100vh;
+      
+  }
+
+ #button{
+    border: 1px solid #CCC5B9;
+    border-radius: 10px;
+    color: #CCC5B9;
+    background-color: transparent;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    transform: background-color 200ms ease-in-out;
+}
+
+#button:hover, #buttom:focus{
+     background-color:#EB5E28;
+}
